@@ -14,7 +14,7 @@ environment:
 configuration: Release
 
 install:
-  - ps: ./ci/setup.ps1
+  - ps: ./ci/setup.ps1 -RunAsAdmin
 
 build_script:
   - ps: ./ci/build.ps1
